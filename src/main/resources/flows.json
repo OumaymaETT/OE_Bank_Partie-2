@@ -1,0 +1,30 @@
+[
+  {
+    "comment": "Debit Flow",
+    "identifier": 1,
+    "amount": 50.0,
+    "targetAccountNumber": 1,
+    "effect": false,
+    "date": "2024-12-01",
+    "type": "Debit"
+  },
+  {
+    "comment": "Credit Flow",
+    "identifier": 2,
+    "amount": 100.50,
+    "targetAccountNumber": 2,
+    "effect": true,
+    "date": "2024-12-01",
+    "type": "Credit"
+  },
+  {
+    "comment": "Transfer Flow",
+    "identifier": 3,
+    "amount": 75.0,
+    "targetAccountNumber": 2,
+    "effect": true,
+    "date": "2024-12-01",
+    "type": "Transfer",
+    "issuingAccountNumber": 1
+  }
+]

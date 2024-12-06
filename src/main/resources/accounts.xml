@@ -1,0 +1,18 @@
+<accounts>
+    <account xsi:type="currentAccount" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <label>Current Account</label>
+        <balance>500.0</balance>
+        <client>
+            <name>ETT</name>
+            <firstName>Ouma</firstName>
+        </client>
+    </account>
+    <account xsi:type="savingsAccount" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <label>Savings Account</label>
+        <balance>1500.0</balance>
+        <client>
+            <name>Jane</name>
+            <firstName>Smith</firstName>
+        </client>
+    </account>
+</accounts>
