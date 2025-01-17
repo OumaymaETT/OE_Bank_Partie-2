@@ -25,9 +25,9 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println(" --------MAin---------");
+		System.out.println(" --------MAin IMPORTER GIT ---------");
 		// Charger les flux depuis un fichier JSON
-        String jsonFilePath = "src/main/resources/flows.json";
+        String jsonFilePath = "/app/resources/flows.json";
         List<Flow> flows = loadFlowsFromJson(jsonFilePath);
         if (flows != null) {
             System.out.println("=== Flows loaded from JSON ===");
@@ -35,7 +35,7 @@ public class Main {
         }
 
         // Charger les comptes depuis un fichier XML
-        String xmlFilePath = "src/main/resources/accounts.xml";
+        String xmlFilePath = "/app/resources/accounts.xml";
         List<Account> accounts = loadAccountsFromXml(xmlFilePath);
         if (accounts != null) {
             System.out.println("=== Accounts loaded from XML ===");
